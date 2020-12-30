@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.posts {
+  background-color: white;
+  color: purple;
+  border-radius: 5px;
+  margin: 10%;
+  list-style: none;
+  text-align: center;
+}

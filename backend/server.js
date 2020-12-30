@@ -1,16 +1,16 @@
 require("dotenv").config();
-
 const express = require("express");
-
 const mongoose = require("mongoose");
 const app = express();
 const PORT = process.env.PORT || 3000;
 const merchantController = require("./controllers/merchant");
-const merchantRoutes = require("./controllers/merchant");
 const MONGOURI = process.env.MONGODB_URI;
+const cors = require("cors");
+
 const { show } = require("./stuff.js").show; // const show = { show: console.log }.show
 
 app.use(express.json());
+app.use(cors());
 
 mongoose.connect(MONGOURI, {
   useNewUrlParser: true,

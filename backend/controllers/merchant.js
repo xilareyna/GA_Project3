@@ -16,6 +16,14 @@ merchantRoutes.get("/", async (req, res) => {
 });
 
 /////////
+//New
+/////////
+// merchantRoutes.get('/new', async(req,res)=>{
+
+// }
+// )
+
+/////////
 //Delete
 /////////
 
@@ -65,8 +73,8 @@ merchantRoutes.post("/", async (req, res) => {
 /////////
 merchantRoutes.get("/:id", async (req, res) => {
   try {
-    const showMerhcant = await Merchant.findById(req.params.id);
-    res.status(200).json(showMerhcant);
+    const showMerchant = await Merchant.findById(req.params.id);
+    res.status(200).json(showMerchant);
   } catch (error) {
     res.status(400).json(error);
   }
