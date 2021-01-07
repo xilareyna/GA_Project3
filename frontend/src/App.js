@@ -12,7 +12,9 @@ function App() {
   /////////
   const fetchProducts = async () => {
     try {
-      const response = await fetch("http://localhost:3000/merchant");
+      const response = await fetch(
+        "https://git.heroku.com/xila-jewelry-app.git/merchant"
+      );
       const data = await response.json();
       setItems(data);
     } catch (error) {
@@ -25,12 +27,15 @@ function App() {
   /////////
   const deleteItem = async (id) => {
     try {
-      const response = await fetch(`http://localhost:3000/merchant/${id}`, {
-        method: "DELETE",
-        headers: {
-          "Content-type": "application/json",
-        },
-      });
+      const response = await fetch(
+        `https://git.heroku.com/xila-jewelry-app.git/merchant/${id}`,
+        {
+          method: "DELETE",
+          headers: {
+            "Content-type": "application/json",
+          },
+        }
+      );
       const data = await response.json();
       const filteredItems = items.filter((item) => item._id !== data._id);
       setItems(filteredItems);
