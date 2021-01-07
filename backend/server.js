@@ -33,3 +33,5 @@ app.use("/merchant", merchantController);
 app.listen(PORT, () => {
   show("🎉🎊", "celebrations happening on port", PORT, "🎉🎊");
 });
+
+module.exports = app;

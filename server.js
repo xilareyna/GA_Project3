@@ -1,5 +1,5 @@
 const express = require("express");
-const app = require("./frontend/src/App.js");
+const app = require("./backend/server.js");
 app.use(express.static("build"));
 
 // const path = require(‘path’);
