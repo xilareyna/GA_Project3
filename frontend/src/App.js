@@ -13,7 +13,7 @@ function App() {
   const fetchProducts = async () => {
     try {
       const response = await fetch(
-        "https://git.heroku.com/xila-jewelry-app.git/merchant"
+        "https://xila-jewelry-app.herokuapp.com/merchant"
       );
       const data = await response.json();
       setItems(data);
@@ -28,7 +28,7 @@ function App() {
   const deleteItem = async (id) => {
     try {
       const response = await fetch(
-        `https://git.heroku.com/xila-jewelry-app.git/merchant/${id}`,
+        `https://xila-jewelry-app.herokuapp.com/merchant/${id}`,
         {
           method: "DELETE",
           headers: {
