@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
+* {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#aboutH {
+  color: #8e0315;
+  font-size: 80px;
+  background-color: white;
+  text-align: center;
+  padding: 1%;
+  border-radius: 5px;
+  margin: 0;
+  font-family: "Sacramento", cursive;
+}
+#aboutP {
+  background-color: white;
+  border-radius: 5px;
+  font-size: 30px;
+  padding: 1%;
+  margin: 5%;
+  font-family: "Open Sans Condensed", sans-serif;
+  box-shadow: 9px 10px 52px -12px rgba(0, 0, 0, 0.75);
+  text-align: center;
+}
+#aboutDiv {
+  background-image: url(https://i.pinimg.com/originals/ea/42/12/ea421266ac62d951ace15e7bde9ad201.jpg);
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.ulHeader {
+  list-style: none;
+  text-align: center;
+  background-color: #8e0315;
+  color: white;
+  margin: 0 auto;
+  padding: 1%;
+}
+.headerLi {
+  text-align: center;
+  margin: 0 auto;
+  width: 5%;
+  font-size: 25px;
+}
+.headerLinks {
+  text-decoration: none;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#aboutBody {
+  margin: 0 auto;
+}
+
+#homeFooterAbout {
+  background-color: white;
+  color: #8e0315;
+  padding: 2%;
+  font-size: 35px;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  margin: 0 auto;
+  left: 0%;
+}
+#contactIconsAbout {
+  margin: 2%;
+}

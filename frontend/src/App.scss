@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Share&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap");
+/* @media only screen and (max-width: 600px) {
+  #homeTitle {
+    font-family: "Open Sans Condensed", sans-serif;
+    color: black;
+    background-image: url(https://images.unsplash.com/photo-1587749971305-369e10d0f634?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80);
+    margin-top: 0;
+    padding: 2%;
+    font-size: 250px;
+    color: white;
+    border: 5px solid black;
+  }
+} */
+
+#App {
+  /* background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%); */
+
+  background-image: url(https://i.pinimg.com/originals/ea/42/12/ea421266ac62d951ace15e7bde9ad201.jpg);
+
+  text-align: center;
+
+  .posts {
+    box-shadow: 4px 7px 198px -15px rgba(18, 5, 5, 0.52);
+    color: black;
+    border-radius: 5px;
+    margin: 4%;
+    list-style: none;
+    /* text-align: center; */
+    width: 25%;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 25px;
+    background-color: white;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .listImgs {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .ulHeader {
+    list-style: none;
+    text-align: center;
+    background-color: #8e0315;
+    color: white;
+    margin: 0 auto;
+    padding: 1%;
+    width: 100%;
+  }
+  .headerLi {
+    text-align: center;
+    margin: 0 auto;
+    width: 5%;
+    font-size: 25px;
+  }
+  #homeTitle {
+    background-color: white;
+    font-size: 80px;
+    color: #8e0315;
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: "Sacramento", cursive;
+    width: 100%;
+  }
+
+  .headerLinks {
+    text-decoration: none;
+    color: white;
+    font-family: "Bebas Neue", cursive;
+  }
+  .productTitleLink {
+    text-decoration: none;
+    color: #8e0315;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  #headerImg {
+    width: 100%;
+  }
+
+  button {
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #3c0a4d;
+    height: 8%;
+    width: 60%;
+    margin: 3%;
+    border-radius: 4px;
+    background-color: #8e0315;
+    box-shadow: 9px 10px 52px -12px rgba(0, 0, 0, 0.75);
+    color: white;
+  }
+  #homeFooter {
+    background-color: white;
+    color: #8e0315;
+    padding: 2%;
+    font-size: 35px;
+    font-family: "Bebas Neue", cursive;
+    width: 100%;
+  }
+  #contactIcons {
+    margin: 2%;
+  }
+  #postPrice {
+    font-size: 20px;
+    // margin-left: 50%;
+  }
+}

@@ -1,0 +1,25 @@
+.cartHeading {
+  background-color: white;
+  font-size: 80px;
+  color: #8e0315;
+  max-width: 100%;
+  margin: 0 auto;
+  font-family: "Sacramento", cursive;
+  text-align: center;
+}
+#cartFooter {
+  background-color: white;
+  color: #8e0315;
+  padding: 2%;
+  font-size: 35px;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  margin: 0 auto;
+  left: 0%;
+}
+#contactIcons {
+  margin: 2%;
+}

@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Share&display=swap");
+
+.showJewels {
+  list-style: none;
+  color: black;
+  font-size: 40px;
+  position: fixed;
+  right: 2%;
+  bottom: 51%;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+.showListImgs {
+  width: 400px;
+  border: 2px solid black;
+  box-shadow: 9px 10px 52px -12px rgba(0, 0, 0, 0.75);
+}
+
+.showUl {
+  background-color: white;
+  text-align: right;
+  box-shadow: 9px 10px 52px -12px rgba(0, 0, 0, 0.75);
+  padding: 7%;
+  border-radius: 5px;
+  word-wrap: break-word;
+}
+
+body {
+  background-image: url(https://i.pinimg.com/originals/ea/42/12/ea421266ac62d951ace15e7bde9ad201.jpg);
+}
+
+.showHeader {
+  background-color: white;
+  font-size: 80px;
+  color: #8e0315;
+  max-width: 100%;
+  margin: 0 auto;
+  font-family: "Sacramento", cursive;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.ulHeader {
+  list-style: none;
+  text-align: center;
+  background-color: #8e0315;
+  color: white;
+  margin: 0 auto;
+  padding: 1%;
+}
+.headerLi {
+  text-align: center;
+  margin: 0 auto;
+  width: 5%;
+  font-size: 25px;
+}
+.headerLinks {
+  text-decoration: none;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+}
+#showBtn {
+  text-align: center;
+  font-size: 21px;
+  border: 1px solid #3c0a4d;
+  height: -4%;
+  width: 32%;
+  margin: 3%;
+  border-radius: 4px;
+  background-color: #8e0315;
+  box-shadow: 9px 10px 52px -12px rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 2%;
+  font-family: "Open Sans Condensed", sans-serif;
+  position: absolute;
+  right: -1%;
+  /* top: 0%; */
+  bottom: -71%;
+}
+#homeFooter {
+  background-color: white;
+  color: #8e0315;
+  padding: 2%;
+  font-size: 35px;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+}
+#contactIcons {
+  margin: 2%;
+}
